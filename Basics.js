@@ -27,3 +27,4 @@ const person1 = {
     address: "123 Main St"
 };
 console.log(person1);
+const taskstatus = "in-progress";
