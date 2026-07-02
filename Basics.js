@@ -28,3 +28,4 @@ const person1 = {
 };
 console.log(person1);
 const taskstatus = "in-progress";
+console.log(taskstatus);
