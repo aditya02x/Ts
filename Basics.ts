@@ -72,3 +72,18 @@ const output1 = identify<string>("Hello");
 const output2 = identify<number>(123);
 console.log(output1);
 console.log(output2);
+
+// type assertion
+let someValue: unknown = "This is a string";
+let strLength: number = (someValue as string).length;
+console.log(strLength);
+
+//enums
+enum Color {
+    Red,
+    Green,
+    Blue
+}
+
+let c: Color = Color.Green;
+console.log(c);
