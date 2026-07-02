@@ -42,3 +42,16 @@ const output1 = identify("Hello");
 const output2 = identify(123);
 console.log(output1);
 console.log(output2);
+// type assertion
+let someValue = "This is a string";
+let strLength = someValue.length;
+console.log(strLength);
+//enums
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+let c = Color.Green;
+console.log(c);
