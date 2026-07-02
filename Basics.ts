@@ -61,3 +61,14 @@ let numbers:number[] = [1,2,3,4,5];
 let names:string[] = ["Aditya","John","Doe"];
 console.log(numbers);
 console.log(names);
+
+
+//gernics
+function identify<T>(arg:T):T{
+    return arg;
+}
+
+const output1 = identify<string>("Hello");
+const output2 = identify<number>(123);
+console.log(output1);
+console.log(output2);
