@@ -52,3 +52,4 @@ console.log(person1);
 //litreal unions
 type Status = "done" | "pending" | "in-progress";
 const taskstatus :Status = "in-progress";
+console.log(taskstatus);
