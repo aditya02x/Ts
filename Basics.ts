@@ -87,3 +87,14 @@ enum Color {
 
 let c: Color = Color.Green;
 console.log(c);
+
+//class
+class Person {
+    name:string;
+    age:number;
+}
+
+let p1 = new Person();
+p1.name = "Aditya";
+p1.age = 25;
+console.log(p1);
