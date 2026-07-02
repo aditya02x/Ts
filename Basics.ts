@@ -48,3 +48,7 @@ const person1 :person ={
     address: "123 Main St"
 }
 console.log(person1);
+
+//litreal unions
+type Status = "done" | "pending" | "in-progress";
+const taskstatus :Status = "in-progress";
