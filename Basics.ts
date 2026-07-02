@@ -92,9 +92,12 @@ console.log(c);
 class Person {
     name:string;
     age:number;
+
+    constructor(name:string, age:number){
+        this.name = name;
+        this.age = age;
+    }
 }
 
-let p1 = new Person();
-p1.name = "Aditya";
-p1.age = 25;
+let p1 = new Person("Aditya", 25);
 console.log(p1);
