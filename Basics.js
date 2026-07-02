@@ -34,3 +34,11 @@ let numbers = [1, 2, 3, 4, 5];
 let names = ["Aditya", "John", "Doe"];
 console.log(numbers);
 console.log(names);
+//gernics
+function identify(arg) {
+    return arg;
+}
+const output1 = identify("Hello");
+const output2 = identify(123);
+console.log(output1);
+console.log(output2);
