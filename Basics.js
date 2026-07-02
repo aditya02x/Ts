@@ -21,3 +21,9 @@ const user = {
     gender: "male"
 };
 console.log(user);
+const person1 = {
+    name: "Aditya",
+    age: 25,
+    address: "123 Main St"
+};
+console.log(person1);

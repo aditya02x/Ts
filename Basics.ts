@@ -34,3 +34,17 @@ const user :User ={
     gender:"male"
 }
 console.log(user);
+
+// type is the another alternative of the interface
+type person ={
+    name:string,
+    age:number,
+    address?: string // optional property
+}
+
+const person1 :person ={
+    name:"Aditya",
+    age: 25,
+    address: "123 Main St"
+}
+console.log(person1);
