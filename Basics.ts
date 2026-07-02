@@ -53,3 +53,11 @@ console.log(person1);
 type Status = "done" | "pending" | "in-progress";
 const taskstatus :Status = "in-progress";
 console.log(taskstatus);
+
+
+//arrays 
+
+let numbers:number[] = [1,2,3,4,5];
+let names:string[] = ["Aditya","John","Doe"];
+console.log(numbers);
+console.log(names);
