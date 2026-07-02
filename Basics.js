@@ -29,3 +29,8 @@ const person1 = {
 console.log(person1);
 const taskstatus = "in-progress";
 console.log(taskstatus);
+//arrays 
+let numbers = [1, 2, 3, 4, 5];
+let names = ["Aditya", "John", "Doe"];
+console.log(numbers);
+console.log(names);
