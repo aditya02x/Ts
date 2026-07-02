@@ -59,8 +59,10 @@ console.log(c);
 class Person {
     name;
     age;
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 }
-let p1 = new Person();
-p1.name = "Aditya";
-p1.age = 25;
+let p1 = new Person("Aditya", 25);
 console.log(p1);
