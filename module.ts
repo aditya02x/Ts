@@ -1,2 +1,2 @@
-import addPayement from "./payement";
+import {addPayement} from "./payement";
 addPayement(1000);
