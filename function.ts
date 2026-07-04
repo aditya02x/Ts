@@ -16,3 +16,10 @@ function sum(...arr: number[]) {
     console.log(arr);
 }
 sum(1,2,3,4,5); // [1, 2, 3, 4, 5]
+
+//overloading
+
+function abcd(a:string ):void;
+function abcd(a:number):void;
+
+function ab
