@@ -101,3 +101,11 @@ class Person {
 
 let p1 = new Person("Aditya", 25);
 console.log(p1);
+
+
+
+// function and types
+
+function abcd(name:string ,cb:(name:string)=>void):void{ //void means the function does not return anything
+   console.log(`Hello, ${name}`);
+}
