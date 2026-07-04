@@ -6,3 +6,7 @@ function test(a) {
 }
 test("Hello World");
 test(123);
+function klm(obj) {
+    console.log(obj);
+}
+klm({ name: "Aditya", age: 25, key: "Hello" });
