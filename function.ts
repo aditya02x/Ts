@@ -19,7 +19,16 @@ sum(1,2,3,4,5); // [1, 2, 3, 4, 5]
 
 //overloading
 
-function abcd(a:string ):void;
-function abcd(a:number):void;
+function abcde(a:string ):void;
+function abcde(a:number):void;
 
-function ab
+function abcde(a: any): void {
+    if (typeof a === "string") {
+        console.log(`String: ${a}`);
+    } else if (typeof a === "number") {
+        console.log(`Number: ${a}`);
+    }
+}
+
+abcde("Hello");
+abcde(42);
