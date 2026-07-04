@@ -8,3 +8,8 @@ function info(name, age, gender = "not specified") {
 }
 info("aditya", 25, "male");
 info("test", 30); // Uses the default gender value
+// ...rest parameters
+function sum(...arr) {
+    console.log(arr);
+}
+sum(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]
