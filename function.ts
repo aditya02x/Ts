@@ -32,3 +32,6 @@ function abcde(a: any): void {
 
 abcde("Hello");
 abcde(42);
+
+
+//Generics
