@@ -13,3 +13,13 @@ function sum(...arr) {
     console.log(arr);
 }
 sum(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]
+function abcde(a) {
+    if (typeof a === "string") {
+        console.log(`String: ${a}`);
+    }
+    else if (typeof a === "number") {
+        console.log(`Number: ${a}`);
+    }
+}
+abcde("Hello");
+abcde(42);
