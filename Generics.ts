@@ -15,6 +15,4 @@ interface Halua<T>{
 }
 
 function klm(obj:Halua<string>){
-    console.log(obj);
-}
-klm({name:"Aditya",age:25,key:"Hello"});
+    console.log(obj)
