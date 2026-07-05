@@ -8,9 +8,6 @@ test<string>("Hello World");
 test<number>(123);
 
 
-interface Halua<T>{
-    name:string;
-    age:number;
     key:T
 }
 
