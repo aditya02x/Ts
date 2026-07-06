@@ -24,12 +24,6 @@ function abcde(a:number):void;
 
 function abcde(a: any): void {
     if (typeof a === "string") {
-        console.log(`String: ${a}`);
-    } else if (typeof a === "number") {
-        console.log(`Number: ${a}`);
-    }
-}
-
 abcde("Hello");
 abcde(42);
 
