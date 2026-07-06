@@ -4,9 +4,6 @@ function test<T>(a:T):T{
     console.log(a);
 }
 
-test<string>("Hello World");
-test<number>(123);
-
 
 interface Halua<T>{
     name:string;
