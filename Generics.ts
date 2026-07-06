@@ -10,11 +10,7 @@ test<number>(123);
 
 interface Halua<T>{
     name:string;
-    age:number;
-    key:T
-}
-
-function klm(obj:Halua<string>){
+    age:numbera<string>){
     console.log(obj);
 }
 klm({name:"Aditya",age:25,key:"Hello"});
