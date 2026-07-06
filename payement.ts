@@ -1,1 +1,3 @@
-export function addPayem
+export function addPayement(val : number){
+    console.log(val);
+}
