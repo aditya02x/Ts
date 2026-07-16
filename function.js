@@ -17,9 +17,5 @@ function abcde(a) {
     if (typeof a === "string") {
         console.log(`String: ${a}`);
     }
-    else if (typeof a === "number") {
-        console.log(`Number: ${a}`);
-    }
-}
-abcde("Hello");
+    else if (typeof a === "nu
 abcde(42);
