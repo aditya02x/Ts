@@ -21,5 +21,3 @@ function abcde(a) {
         console.log(`Number: ${a}`);
     }
 }
-abcde("Hello");
-abcde(42);
