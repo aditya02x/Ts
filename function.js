@@ -18,3 +18,8 @@ function abcde(a) {
         console.log(`String: ${a}`);
     }
     else if (typeof a === "number") {
+        console.log(`Number: ${a}`);
+    }
+}
+abcde("Hello");
+abcde(42);
