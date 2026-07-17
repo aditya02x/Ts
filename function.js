@@ -15,8 +15,6 @@ function sum(...arr) {
 sum(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]
 function abcde(a) {
     if (typeof a === "string") {
-        console.log(`Number: ${a}`);
+        console.log(`String: ${a}`);
     }
-}
-abcde("Hello");
-abcde(42);
+    else if (typeof a === "number") {
